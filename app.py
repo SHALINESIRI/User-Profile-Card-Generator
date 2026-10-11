@@ -13,8 +13,8 @@ def home():
 
         profile = {
             "name": name,
-            "bio": bio,
-            "image": image
+            "bio": bioo,
+            "image": immage
         }
 
     return render_template("index.html", profile=profile)
